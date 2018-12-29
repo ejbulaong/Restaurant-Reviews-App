@@ -8,16 +8,16 @@ const APIKey = 'pk.eyJ1IjoiZWpidWxhb25nIiwiYSI6ImNqcHdzY2NvZTBlbWo0MnIxMTRnYnl0M
 /**
  * Check if browser supports service worker
  */
-// if(navigator.serviceWorker) {
-//   navigator.serviceWorker.register("sw.js")
-//   .then(()=> {
-//       console.log("Service Worker Installed");        
-//   })
-//   .catch((error)=> {
-//       console.log("Service Worker Did Not Install"); 
-//       console.log(error);
-//   })
-// }
+if(navigator.serviceWorker) {
+  navigator.serviceWorker.register("sw.js")
+  .then(()=> {
+      console.log("Service Worker Installed");        
+  })
+  .catch((error)=> {
+      console.log("Service Worker Did Not Install"); 
+      console.log(error);
+  })
+}
 
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
