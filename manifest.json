@@ -12,5 +12,11 @@
           "type": "image/png",
           "sizes": "512x512"
         }
-      ]
+      ],
+      "start_url": "https://ejbulaong.github.io/Restaurant-Reviews-App/",
+      "background_color": "gray",
+      "display": "standalone",
+      "theme_color": "black",
+      "orientation": "landscape"
 }
+
