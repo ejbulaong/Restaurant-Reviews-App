@@ -16,6 +16,8 @@ self.addEventListener("install", e => {
                     "/img/8.jpg",
                     "/img/9.jpg",
                     "/img/10.jpg",
+                    "/img/mitt.png",
+                    "/img/udacity.png",
                     "/css/styles.css",
                     "/data/restaurants.json",
                     "/js/main.js",
@@ -23,6 +25,7 @@ self.addEventListener("install", e => {
                     "/js/restaurant_info.js",
                     "/",
                     "/index.html",
+                    "/restaurant.html",
                     "/README.md"
                 ]
             )
