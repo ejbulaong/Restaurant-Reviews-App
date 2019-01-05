@@ -1,0 +1,16 @@
+{
+    "short_name": "Restaurant Reviews App",
+    "name": "Restaurant Reviews App(SD 140 - Final Project)",
+    "icons": [
+        {
+          "src": "/img/mitt.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        },
+        {
+          "src": "/img/udacity.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+}
