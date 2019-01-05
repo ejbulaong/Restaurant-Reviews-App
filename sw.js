@@ -25,6 +25,7 @@ self.addEventListener("install", e => {
                     "/js/restaurant_info.js",
                     "/",
                     "/index.html",
+                    "/manifest.json",
                     "/restaurant.html",
                     "/README.md"
                 ]
