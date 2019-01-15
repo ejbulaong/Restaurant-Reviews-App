@@ -5,7 +5,7 @@ var newMap
 var markers = []
 const APIKey = 'pk.eyJ1IjoiZWpidWxhb25nIiwiYSI6ImNqcHdzY2NvZTBlbWo0MnIxMTRnYnl0MDYifQ.6hEsMNtfuS-gyfGc7K2MlQ';
 
-/**
+/*
  * Check if browser supports service worker
  */
 if(navigator.serviceWorker) {
@@ -162,6 +162,7 @@ createRestaurantHTML = (restaurant) => {
   const li = document.createElement('li');
 
   const image = document.createElement('img');
+  image.setAttribute('alt',`photo from ${restaurant.name}`);
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
   li.append(image);

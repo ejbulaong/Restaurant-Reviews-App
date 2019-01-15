@@ -13,10 +13,9 @@
           "sizes": "512x512"
         }
       ],
-      "start_url": "/",
+      "start_url": "/Restaurant-Reviews-App/",
       "background_color": "gray",
       "display": "standalone",
       "theme_color": "black",
       "orientation": "landscape"
 }
-
